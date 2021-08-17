@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import Proyect from "./Proyect";
 
 export default function Portafolios({ portfolios }) {
