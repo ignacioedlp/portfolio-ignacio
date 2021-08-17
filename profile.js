@@ -55,7 +55,7 @@ export const portfolios = [
         title: 'Cryptocurrency',
         description: 'A portfolio for cryptocurrency',
         urlImage: 'crypto-info.png',
-        urlPage: '#!',
+        urlPage: 'https://ignacioedlp.github.io/cryptoNews-proyect/',
         techs: [
             'JavaScript', 'Node.js ', 'Express'
         ]
@@ -66,7 +66,7 @@ export const portfolios = [
         title: 'PokeDex',
         description: 'A portfolio for PokeDex',
         urlImage: 'pokedex.png',
-        urlPage: '#!',
+        urlPage: 'https://ignacioedlp.github.io/pokedex/',
         techs: [
             'JavaScript', 'Node.js ', 'Express'
         ]

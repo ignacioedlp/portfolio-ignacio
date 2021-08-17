@@ -1,13 +1,9 @@
 export default function Header() {
-  const myStyle = {
-    backgroundColor: "red",
-  };
-
   return (
     <header>
       <div className="row">
         <div className="col-md-12">
-          <div className="card card-body bg-secondary" style={myStyle}>
+          <div className="card card-body bg-secondary">
             <div className="row">
               <div className="col-md-4">
                 <img src="mia.jpg" alt="" className="img-fluid" />
