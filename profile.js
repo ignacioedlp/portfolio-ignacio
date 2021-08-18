@@ -35,7 +35,7 @@ export const information = {
     Education: 'University',
     Carrer: 'Programmer',
     Phone: '+54-221-5245019',
-    Email: 'iganciocafiero12@gmail.com',
+    Email: 'ignaciocafiero12@gmail.com',
 }
 
 export const hobbies = [

@@ -20,52 +20,52 @@ export default function Information({ Skills, information, hobbies }) {
           </div>
         </div>
       </div>
-      <div className="col-md-8 mt-1">
-        <div className="container">
+      <div className="col-md-8 mt-1 p-0">
+        <div className="container p-1">
           <div className="card bg-light">
             <div className="card-body">
               <h4 className="card-title">Information</h4>
-              <ul className="list-group m-1">
+              <ul className="list-group mt-1">
                 <div>
                   <li className="list-group-item">
-                    <h5>Location : {information.Location}</h5>
+                    <h6>Location : {information.Location}</h6>
                   </li>
                 </div>
                 <div>
                   <li className="list-group-item">
-                    <h5>Age : {information.Age}</h5>
+                    <h6>Age : {information.Age}</h6>
                   </li>
                 </div>
                 <div>
                   <li className="list-group-item">
-                    <h5>Education : {information.Education}</h5>
+                    <h6>Education : {information.Education}</h6>
                   </li>
                 </div>
                 <div>
                   <li className="list-group-item">
-                    <h5>Phone : {information.Phone}</h5>
+                    <h6>Phone : {information.Phone}</h6>
                   </li>
                 </div>
                 <div>
                   <li className="list-group-item">
-                    <h5>Carrer : {information.Carrer}</h5>
+                    <h6>Carrer : {information.Carrer}</h6>
                   </li>
                 </div>
                 <div>
                   <li className="list-group-item">
-                    <h5>Email : {information.Email}</h5>
+                    <h6>Email : {information.Email}</h6>
                   </li>
                 </div>
               </ul>
             </div>
           </div>
-          <div className="card bg-light mt-1">
+          <div className="card bg-light mt-2">
             <div className="card-body">
               <h4 className="card-title">Hobbies</h4>
-              <ul className="list-group m-1">
+              <ul className="list-group">
                 {hobbies.map((hob, index) => (
                   <div key={index}>
-                    <li className="list-group-item">
+                    <li className="list-group-item pb-0">
                       <h5>{hob}</h5>
                     </li>
                   </div>

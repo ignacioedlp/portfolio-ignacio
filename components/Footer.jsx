@@ -13,17 +13,17 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-2">
               <Link href="https://www.instagram.com/tofiedlp1">
-                <i className="bi bi-instagram" aria-hidden="true"></i>
+                <h3 className="bi bi-instagram" aria-hidden="true"></h3>
               </Link>
             </div>
             <div className="col-md-2">
               <Link href="https://www.linkedin.com/in/ignacio-cafiero-torrubia-743487216/">
-                <i className="bi bi-linkedin"></i>
+                <h3 className="bi bi-linkedin"></h3>
               </Link>
             </div>
             <div className="col-md-2">
               <Link href="mailto:ignaciocafiero12@gmail.com">
-                <i className="bi bi-google" aria-hidden="true"></i>
+                <h3 className="bi bi-google" aria-hidden="true"></h3>
               </Link>
             </div>
           </div>

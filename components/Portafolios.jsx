@@ -5,7 +5,7 @@ export default function Portafolios({ portfolios }) {
   return (
     <div className="row py-2">
       <div className="col-md-12">
-        <div className="card card-body sbg-dark">
+        <div className="card card-body ">
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-center text-light">Portfolio</h1>
