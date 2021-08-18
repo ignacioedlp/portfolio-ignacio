@@ -29,25 +29,17 @@ export const Skills = [
     },
 
 ]
-export const Experiences = [
-    {
-        title: 'React Next Portfolio',
-        description: 'A React Next Portfolio',
-        company: 'React Next',
-        startDate: '2017-01-01',
-    },
-    {
-        title: 'React Next Portfolio',
-        description: 'A React Next Portfolio',
-        company: 'React Next',
-        startDate: '2017-01-01',
-    },
-    {
-        title: 'React Next Portfolio',
-        description: 'A React Next Portfolio',
-        company: 'React Next',
-        startDate: '2017-01-01',
-    },
+export const information = {
+    Location: 'La Plata, Buenos Aires, Argentina',
+    Age: '19',
+    Education: 'University',
+    Carrer: 'Programmer',
+    Phone: '+54-221-5245019',
+    Email: 'iganciocafiero12@gmail.com',
+}
+
+export const hobbies = [
+    'GYM', 'Friends', 'Coding', 'Travel', 'Family', 'Music'
 ]
 
 export const portfolios = [
@@ -57,7 +49,7 @@ export const portfolios = [
         urlImage: 'crypto-price.png',
         urlPage: 'https://crypto-prices-react.vercel.app/',
         techs: [
-            'JavaScript', 'Node.js ', 'Express'
+            'JavaScript', 'React', 'Next.js',
         ]
 
 
