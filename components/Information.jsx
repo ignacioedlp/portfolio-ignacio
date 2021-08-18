@@ -1,6 +1,6 @@
 export default function Information({ Skills, information, hobbies }) {
   return (
-    <div className="row py-2">
+    <div className="row py-2 ">
       <div className="col-md-4">
         <div className="card bg-light">
           <div className="card-body">
@@ -10,7 +10,7 @@ export default function Information({ Skills, information, hobbies }) {
                 <h5>{skill.name}</h5>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-striped progress-bar-animated"
+                    className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
                     role="progressbar"
                     style={{ width: skill.percents }}
                   ></div>

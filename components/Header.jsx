@@ -23,7 +23,7 @@ export default function Header() {
                 <p>
                   <div className="row">
                     <div className="col p-2">
-                      <a onClick={handleClick} className="btn btn-primary">
+                      <a onClick={handleClick} className="btn btn-danger">
                         Contratame
                       </a>
                     </div>

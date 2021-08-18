@@ -7,14 +7,15 @@ import { Skills, information, hobbies, portfolios } from "../profile"
 
 
 const Index = () => (
-    <Layout>
-        <Header />
+    <Layout Layout >
+        <Header data-aos="fade-in" />
         <Information
             Skills={Skills}
             information={information}
             hobbies={hobbies}
+            className="information"
         />
-        <Portafolios portfolios={portfolios} />
+        <Portafolios portfolios={portfolios} className="portfolios" />
     </Layout >
 )
 
