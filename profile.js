@@ -54,8 +54,8 @@ export const portfolios = [
     {
         title: 'Cryptocurrency',
         description: 'A portfolio for cryptocurrency',
-        urlImage: 'crypto-info.png',
-        urlPage: 'https://ignacioedlp.github.io/cryptoNews-proyect/',
+        urlImage: 'crypto-price.png',
+        urlPage: 'https://crypto-prices-react.vercel.app/',
         techs: [
             'JavaScript', 'Node.js ', 'Express'
         ]
