@@ -63,4 +63,13 @@ export const portfolios = [
             'JavaScript', 'Node.js ', 'Express'
         ]
     },
+    {
+        title: 'Rick & Morty',
+        description: 'A portfolio for Rick & Morty',
+        urlImage: 'RYM.png',
+        urlPage: 'https://api-rym-next-react.vercel.app/',
+        techs: [
+            'JavaScript', 'Next.js ', 'React'
+        ]
+    },
 ]

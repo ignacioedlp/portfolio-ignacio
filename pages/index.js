@@ -6,9 +6,9 @@ import { Skills, information, hobbies, portfolios } from "../profile"
 
 
 
-const Index = ({ Portfolios }) => (
-    <Layout Layout >
-        <Header data-aos="fade-in" />
+const Index = () => (
+    <Layout Layout>
+        <Header />
         <Information
             Skills={Skills}
             information={information}
