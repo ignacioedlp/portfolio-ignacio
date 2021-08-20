@@ -5,7 +5,15 @@ export default function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link href="/">
-          <a className="navbar-brand">Ignacio C.T</a>
+          <a className="navbar-brand">
+            <img
+              src="logo.jpg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt=""
+            />
+          </a>
         </Link>
         <button
           className="navbar-toggler"

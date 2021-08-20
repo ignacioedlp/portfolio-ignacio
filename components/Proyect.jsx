@@ -11,7 +11,7 @@ export default function Proyect({ data }) {
           <a href={data.urlPage}>Know more</a>
           <div className="mt-1">
             {data.techs.map((tech, index) => (
-              <span key={index} class="badge rounded-pill bg-danger me-1">
+              <span key={index} className="badge rounded-pill bg-danger me-1">
                 {tech}
               </span>
             ))}

@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div class="modal-body p-0">
-      <div class="row">
+    <div className="modal-body p-0">
+      <div className="row">
         <div className="col-md-2">
           <Link href="https://www.instagram.com/tofiedlp1">
             <h3 className="bi bi-instagram text-black" aria-hidden="true"></h3>
