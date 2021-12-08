@@ -1,22 +1,20 @@
-import Layout from "../components/Layout"
-import Header from "../components/Header"
-import Information from "../components/Information"
-import Portafolios from "../components/Portafolios"
-import { Skills, information, hobbies, portfolios } from "../profile"
-
-
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import Information from "../components/Information";
+import Portafolios from "../components/Portafolios";
+import { Skills, information, hobbies, portafolio } from "../profile";
 
 const Index = () => (
-    <Layout Layout>
-        <Header />
-        <Information
-            Skills={Skills}
-            information={information}
-            hobbies={hobbies}
-            className="information"
-        />
-        <Portafolios portfolios={portfolios} className="portfolios" />
-    </Layout >
-)
+  <Layout>
+    <Header />
+    <Information
+      Skills={Skills}
+      information={information}
+      hobbies={hobbies}
+      className="information"
+    />
+    <Portafolios portafolio={portafolio} className="portfolios" />
+  </Layout>
+);
 
-export default Index
+export default Index;
