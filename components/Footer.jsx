@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="col-md-8">
           <h4>&copy; Ignacio Cafiero Torrubia</h4>
           <p>2019 - {new Date().getFullYear()}</p>
-          <p>All rights reserved.</p>
+          <p>Derechos reservados</p>
         </div>
         <div className="col-md-4 text-rights">
           <div className="row">
