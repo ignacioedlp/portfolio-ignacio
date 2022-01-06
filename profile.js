@@ -84,17 +84,18 @@ export const portafolio = [
     techs: ["JavaScript", "React", "Next.js"],
   },
   {
-    title: "PokeDex",
-    description: "Manejo de API de PokeDex",
+    title: "Pokedex",
+    description: "Manejo de API de Pokemon",
     urlImage: "pokedex.png",
     urlPage: "https://ignacioedlp.github.io/pokedex/",
     techs: ["JavaScript", "Node.js ", "Express"],
   },
   {
-    title: "Rick & Morty",
-    description: "Manejo de API de Rick & Morty",
-    urlImage: "RYM.png",
-    urlPage: "https://api-rym-next-react.vercel.app/",
-    techs: ["JavaScript", "Next.js ", "React"],
+    title: "Sistema de Gastos",
+    description:
+      "Sistema hecho con patron MVC en php, con mySQL. Ademas tiene integrado un sistema de roles",
+    urlImage: "ExpensesApp.png",
+    urlPage: "https://github.com/ignacioedlp/SistemaDeGastos",
+    techs: ["JavaScript", "PHP", "MySql"],
   },
 ];
